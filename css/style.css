@@ -1,0 +1,85 @@
+#game {
+    width: 800px;
+    height: 600px;
+    left: 25%;
+    position: absolute;
+    z-index: 5;
+}
+
+.block {
+    width: 166px;
+    height: 124px;
+    float: left;
+    margin: 10px;
+    background-image: url(../img/question-mark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.b{
+    width: 166px;
+    height: 124px;
+    float: left;
+    margin: 10px;
+    background-image: url(../img/question-mark.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.checked{
+    pointer-events: none!important;
+}
+
+.block > div {
+    width: 160px;
+    height: 120px;
+}
+
+.img1 {
+    background-image: url(../img/a1.png);
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(../img/a2.png);
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(../img/a3.png);
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(../img/a4.png);
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url(../img/a5.png);
+    background-size: cover;
+}
+
+.img6 {
+    background-image: url(../img/a6.png);
+    background-size: cover;
+}
+
+.img7 {
+    background-image: url(../img/a7.png);
+    background-size: cover;
+}
+
+.img8 {
+    background-image: url(../img/a8.png);
+    background-size: cover;
+}
+
+.hide {
+    visibility: hidden;
+}
